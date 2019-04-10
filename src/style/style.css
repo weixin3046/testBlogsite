@@ -78,6 +78,8 @@ body a:focus {
 	top: 0;
 	width: 100%;
 	margin: 0 auto;
+	background: #fff;
+	border-color: #f0f0f0;
 }
 
 .w3header {
@@ -95,9 +97,9 @@ body a:focus {
 
 .navbar-header h1 a {
 	color: #992252;
-	background: #fff;
+	/*background: #fff;*/
 	text-decoration: none;
-	border: 1px solid #992252;
+	/*border: 1px solid #992252;*/
 	padding: .2em 0.3em;
 	display: inline-block;
 	letter-spacing: 1px;
@@ -128,7 +130,7 @@ body a:focus {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #000;
 	font-size: 1.2em;
 	padding: 1.6em 0.5em 0;
 	position: relative;
@@ -364,11 +366,11 @@ h3.agileits-title {
 
 .w3_agileits-ab-main h4 {
 	font-size: 1em;
-	letter-spacing: 0.5px;
+	/*letter-spacing: 0.5px;*/
 	color: #000;
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	text-transform: capitalize;
+	font-family: '楷体', '楷体_GB2312';
+	/*font-style: italic;*/
+	/*text-transform: capitalize;*/
 }
 
 .w3_agileits-ab-main h3 {
@@ -378,6 +380,7 @@ h3.agileits-title {
 
 p.about-text-w3l {
 	padding: 0 20px 0 0;
+	text-indent:2em;
 }
 
 .w3-about h4.about-bottom-title {
@@ -390,13 +393,15 @@ p.about-text-w3l {
 }
 
 .w3-about h5 {
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-family: '楷体', '楷体_GB2312';
+	/*text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;*/
 	margin: 1em 0 1.8em;
 	color: #000;
 	font-size: 0.9em;
-	letter-spacing: 2px;
-	font-weight: 500;
+	/*letter-spacing: 2px;*/
+	font-weight: 700;
 }
 
 .about-agile a {
@@ -566,7 +571,7 @@ a.agile-more:hover {
 /*-- stats --*/
 
 .stats {
-	background: url(../images/3.jpg) no-repeat 0px 0px;
+	background: url(../images/bj_1.jpg) no-repeat 0px 0px;
 	padding: 100px 0;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -695,6 +700,10 @@ h4.stats-info {
 
 .news-w3lgrids {
 	padding: 15px;
+}
+
+.news-w3lgrids img{
+	height: 17.5em
 }
 
 
