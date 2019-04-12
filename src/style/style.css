@@ -98,6 +98,7 @@ body a:focus {
 .navbar-header h1 a {
 	color: #992252;
 	/*background: #fff;*/
+	font-weight: bold;
 	text-decoration: none;
 	/*border: 1px solid #992252;*/
 	padding: .2em 0.3em;
@@ -361,7 +362,7 @@ h3.agileits-title {
 /*-- about--*/
 
 .w3_agileits-ab-main {
-	margin: 16em 0 0;
+	margin: 4em 0 0;
 }
 
 .w3_agileits-ab-main h4 {
@@ -613,7 +614,7 @@ h4.stats-info {
 /*-- news --*/
 
 .w3ls-section {
-	padding: 4em 0;
+	padding: 5em 0;
 }
 
 .news-w3imgtext {
